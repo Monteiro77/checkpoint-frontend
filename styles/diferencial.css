@@ -1,0 +1,40 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 96px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.sectionCard{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardDescription{
+    padding-top: 30px;
+    width: 700px;
+}
+
+.sectionCard img{
+    height: 550px;
+}
+
+.cardTitle{
+    font-weight: bold;
+    font-size: 48px;
+}
