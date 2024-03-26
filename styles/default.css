@@ -7,23 +7,20 @@
 }
 
 ::-webkit-scrollbar {
-    width: 6px; /* Largura da barra de rolagem */
+    width: 6px; 
 }
 
-/* Track (parte em que a barra de rolagem se move) */
 ::-webkit-scrollbar-track {
-    background: #1d1d1d; /* Cor de fundo */
+    background: #1d1d1d;
 }
 
-/* Thumb (o indicador de posição) */
 ::-webkit-scrollbar-thumb {
-    background: #800000; /* Cor da barra de rolagem */
-    border-radius: 6px; /* Borda arredondada */
+    background: #800000;
+    border-radius: 6px;
 }
 
-/* Hover sobre a thumb */
 ::-webkit-scrollbar-thumb:hover {
-    background: #800000; /* Cor da barra de rolagem ao passar o mouse */
+    background: #800000; 
 }
 
 body{
@@ -42,6 +39,12 @@ header {
 .icon {
     height: 80%;
 }
+
+.icon:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
 .header-nav, .footer-ul {
     list-style: none;
     display: flex;
