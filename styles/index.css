@@ -1,0 +1,58 @@
+.content div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texts-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.content div img {
+    width: 38%;
+    margin-left: 20px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 1px #6d0101;
+}
+
+.content p {
+    font-weight: 200;
+    font-size: 14pt;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+
+h3 {
+    font-weight: 200;
+}
+
+button {
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    border: none;
+    background-color: #680000;
+    font-size: 15pt;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
