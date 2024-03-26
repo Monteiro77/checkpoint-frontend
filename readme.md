@@ -1,11 +1,9 @@
-# Telas finalizadas:
-Vinhos: Vinicius <br>
-Política: Guilherme <br>
-Inicial: Rafael <br>
-Sobre: Victor 
-
-# Telas faltantes
-Diferencial: Enzo
+# Equipe
+Rafael Duarte de Freitas - Página principal <br>
+Vinicius Monteiro - Página de vinhos <br>
+Enzo Diógenes - Página de diferencial <br>
+Victor - Página de sobre <br>
+Guilherme Oliveira - Página de política <br>
 
 # Estrutura do Projeto HTML e CSS
 
