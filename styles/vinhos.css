@@ -1,0 +1,101 @@
+.main-wine{
+    height: 2900px;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tittle-wine{
+    align-self: flex-start;
+}
+.container-product{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divisor{
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+
+
+.left-wine{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.left-wine img{
+    width: 55%;
+}
+
+.left-wine span{
+    font-weight: 300;
+}
+
+.rigth-wine{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #fff;
+    padding: 2%;
+    gap: 3%;
+}
+
+.container-information{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+}
+.information-wine{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 5px;
+    
+}
+
+.information-wine-tittle{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.information-wine-subtitle{
+    font-size: 1.2rem;
+}
+.container-header-product{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-header-product span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.left-wine img:hover{
+    width: 60%;
+    transition: 1500ms;
+}
+
+.button-buy{
+    width: 15vw;
+    height: 8vh;
+    background-color: #680000;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
