@@ -1,9 +1,9 @@
 # Equipe
-Rafael Duarte de Freitas - Página principal
-Vinicius Monteiro - Página de vinhos
-Enzo Diógenes - Página de diferencial
-Victor - Página de sobre
-Guilherme Oliveira - Página de política
+Rafael Duarte de Freitas - Página principal <br>
+Vinicius Monteiro - Página de vinhos <br>
+Enzo Diógenes - Página de diferencial <br>
+Victor - Página de sobre <br>
+Guilherme Oliveira - Página de política <br>
 
 # Estrutura do Projeto HTML e CSS
 
