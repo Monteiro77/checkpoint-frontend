@@ -7,12 +7,14 @@ Sobre: Victor
 # Telas faltantes
 Diferencial: Enzo
 
-# Figma
-https://www.figma.com/file/ALiAiFDFw4Hp8xTAySFPSH/Untitled?type=design&node-id=0%3A1&mode=design&t=0VtNbkDvRvdXwf2g-1
-
 # Estrutura do Projeto HTML e CSS
 
 Este é um projeto que consiste em 5 páginas HTML, cada uma com seu próprio conteúdo e estilo, utilizando CSS para a apresentação visual. Abaixo está a descrição da estrutura do projeto:
+
+## Protótipos
+
+Foram construídos protótipos da tela utilizando um template padrão como base. O mesmo pode ser encontrado no link do figma abaixo, que foi de grande valor para a facilidade de replicação do design em código HMTL & CSS. <br>
+Link: https://www.figma.com/file/ALiAiFDFw4Hp8xTAySFPSH/Untitled?type=design&node-id=0%3A1&mode=design&t=0VtNbkDvRvdXwf2g-1
 
 ## Páginas do Projeto:
 
