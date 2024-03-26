@@ -34,7 +34,7 @@ Este é um projeto que consiste em 5 páginas HTML, cada uma com seu próprio co
 
 - `styles/`: Pasta contendo arquivos CSS para estilização das páginas.
 - `images/`: Pasta contendo imagens utilizadas nas páginas.
-- `pages/`: Pasta contendo todas as páginas utilizadas no site, com excessão do indexe
+- `pages/`: Pasta contendo todas as páginas utilizadas no site, com excessão do index.html (página principal)
 - `index.html`: Página inicial do projeto.
 - `pages/sobre.html`: Página com informações sobre a Vinheria Agnello.
 - `pages/diferencial.html`: Página destacando os diferenciais da Vinheria Agnello.
