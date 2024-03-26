@@ -1,5 +1,5 @@
 .main-wine{
-    height: 2900px;
+    height: 2400px;
     width: 100%;
     padding: 2%;
     display: flex;
@@ -8,7 +8,8 @@
 
 }
 .tittle-wine{
-    align-self: flex-start;
+    align-self: center;
+    margin-bottom: 30px;
 }
 .container-product{
     width: 100%;
@@ -25,8 +26,6 @@
 }
 
 
-
-
 .left-wine{
  
     display: flex;
@@ -38,10 +37,14 @@
 
 .left-wine img{
     width: 55%;
+    transition: 1500ms;
+    border-radius: 20px;
 }
 
 .left-wine span{
     font-weight: 300;
+    font-size: 25pt;
+    margin-top: -50px;
 }
 
 .rigth-wine{
@@ -74,6 +77,7 @@
 
 .information-wine-subtitle{
     font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 .container-header-product{
     width: 100%;
@@ -98,4 +102,13 @@
     border: none;
     border-radius: 10px;
     font-size: 1.2rem;
+}
+
+.button-buy:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.button-buy a:hover {
+    opacity: 100%;
 }
