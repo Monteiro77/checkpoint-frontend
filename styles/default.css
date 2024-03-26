@@ -5,6 +5,11 @@
     color: #fff;
     font-family: 'Inter', sans-serif;
 }
+
+body{
+    background-color: #252525;
+}
+
 header {
     width: 100%;
     height: 80px;
