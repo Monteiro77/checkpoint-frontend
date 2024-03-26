@@ -43,8 +43,8 @@
 
 .left-wine span{
     font-weight: 300;
-    font-size: 10pt;
-    margin-top: -50px;
+    font-size: 20pt;
+    margin-top: -10px;
 }
 
 .rigth-wine{
@@ -92,7 +92,7 @@
 }
 
 .left-wine img:hover{
-    width: 60%;
+    width: 58%;
     transition: 1500ms;
 }
 
