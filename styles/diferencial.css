@@ -32,9 +32,14 @@ main{
 
 .sectionCard img{
     height: 550px;
+    border-radius: 20px;
 }
 
 .cardTitle{
     font-weight: bold;
     font-size: 48px;
+}
+
+.imgLeft {
+    margin-right: 60px;
 }
