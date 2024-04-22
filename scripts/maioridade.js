@@ -1,11 +1,11 @@
 'use strict'
 
-const maioridade = localStorage.getItem('maioridade')
+const maioridade = sessionStorage.getItem('maioridade')
 
 if(maioridade != 'sim' ){
   document.getElementById('body').onload = function(){
     swal({
-        title: "Você é maior de idade?",
+        title: "Você é maior de idade? (+18)",
         icon: "warning",
         buttons: true,
         dangerMode: true,
@@ -17,7 +17,7 @@ if(maioridade != 'sim' ){
         if (resposta) {
           window.location.assign('https://peppapig.fandom.com/wiki/Peppa_Pig_(TV_series)')
         }else{
-          localStorage.setItem('maioridade', 'sim')
+          sessionStorage.setItem('maioridade', 'sim')
         }
       });
   };
