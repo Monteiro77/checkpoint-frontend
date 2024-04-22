@@ -1,0 +1,49 @@
+h1 {
+    margin-top: 30px;
+}
+
+.formContainer{
+    height: 80vh;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0px 10px 10px 10px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.textForm{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #c80404; 
+    padding: 5px;
+    max-width: 600px;
+    max-height: 150px;
+}
+
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none; 
+}
+
+.button-send{
+    width: 15vw;
+    height: 8vh;
+    background-color: #680000;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+   cursor: pointer;
+}

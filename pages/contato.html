@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../styles/contato.css">
+   <link rel="stylesheet" href="../styles/default.css" />
+   <script src="../scripts/contato.js" defer></script>
+   <title>Document</title>
+</head>
+<body>
+   <header>
+      <img class="icon" onclick="window.location.assign('../index.html')" src="../images/icone.png" />
+      <nav>
+          <ul class="header-nav">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./diferencial.html">Diferencial</a></li>
+            <li><a href="./politica.html">Política</a></li>
+            <li><a href="./vinhos.html">Vinhos</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+          </ul>
+      </nav>
+  </header>
+   <main>
+      <form>
+         <div class="formContainer">
+             <h1>Formulário de Contato</h1>
+             <div class="form-group">
+                 <label for="name" class="textForm">Nome:</label>
+                 <input type="text" id="name" name="name" placeholder="Seu nome...">
+             </div>
+             <div class="form-group">
+                 <label for="email" class="textForm">Email:</label>
+                 <input type="text" id="email" name="email" placeholder="Seu email...">
+             </div>
+             <div class="form-group">
+                 <label for="message" class="textForm">Mensagem:</label>
+                 <textarea id="message" name="message" placeholder="Sua mensagem..."></textarea>
+             </div>
+             <button class="button-send" id="sendButton">
+               <span>ENVIAR</span>
+           </button>
+         </div>
+     </form>
+   </main>
+   <footer>
+      <div class="main-footer">
+        <nav class="footer-nav">
+          <ul class="footer-ul">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./diferencial.html">Diferencial</a></li>
+            <li><a href="./politica.html">Política</a></li>
+            <li><a href="./vinhos.html">Vinhos</a></li>
+          </ul>
+        </nav>
+
+        <div class="endereco">
+          <span
+            >RUA DO VINHO 402, VINHEDO, 13131313 SP - BRASIL | CNPJ
+            19.995.390/0001-05</span
+          >
+        </div>
+      </div>
+      <span class="copyright"
+        >Todos os direitos reservados | Vinheria Agnello @2024</span
+      >
+    </footer>
+</body>
+</html>
