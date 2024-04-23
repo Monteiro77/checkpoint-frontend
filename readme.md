@@ -31,6 +31,9 @@ Link: https://www.figma.com/file/ALiAiFDFw4Hp8xTAySFPSH/Untitled?type=design&nod
 5. **Política de Privacidade (`politica.html`):**
    - Esta página contém a política de privacidade da Vinheria Agnello, informando aos visitantes como seus dados são coletados, usados e protegidos.
 
+6. **Vinho Selecionado (`vinho_selecionado.html`):**
+   - Esta página contém o vinho selecionado ao clicar em "Comprar" na lista de vinhos oferecidos pela vinheria na página de vinhos, na qual demonstra as características do vinho, e a opção de adicionar ao carrinho o mesmo com a quantidade desejada.
+
 ## Estrutura de Diretórios:
 
 - `styles/`: Pasta contendo arquivos CSS para estilização das páginas.
