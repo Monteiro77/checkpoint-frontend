@@ -1,0 +1,67 @@
+.selected-wine {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#wine-name {
+    margin: 40px 0px;
+}
+
+#img-wine {
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 30%;
+}
+
+.infosWine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.textWine {
+    font-size: 18pt;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.wineEspec {
+    font-size: 17pt;
+}
+
+.typeWine {
+    margin-right: 20px;
+}
+
+
+.textInfosWine {
+    margin-right: 10px;
+}
+
+.buy-wine {
+    width: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.buy-wine button {
+    width: 30%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #6d0101;
+    border: 0;
+    font-size: 18pt;
+    transition: all 1s;
+}
+
+.buy-wine button:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
