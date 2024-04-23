@@ -15,7 +15,8 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .sectionCard{
@@ -28,6 +29,7 @@ main{
 .cardDescription{
     padding-top: 30px;
     width: 700px;
+    margin: 0px 20px;
 }
 
 .sectionCard img{
@@ -38,6 +40,7 @@ main{
 .cardTitle{
     font-weight: bold;
     font-size: 48px;
+    margin: 0px 20px;
 }
 
 .imgLeft {
