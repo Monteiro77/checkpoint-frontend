@@ -35,13 +35,18 @@
     font-size: 17pt;
 }
 
+.wineEspecs {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
 .typeWine {
     margin-right: 20px;
 }
 
-
 .textInfosWine {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .buy-wine {
@@ -49,9 +54,23 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    flex-direction: column;
 }
 
-.buy-wine button {
+.textPrice {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.textPrice span {
+    font-size: 25pt;
+    font-weight: 200;
+}
+
+.buy-wine .addCart {
     width: 30%;
     height: 60px;
     border-radius: 10px;
@@ -61,7 +80,54 @@
     transition: all 1s;
 }
 
-.buy-wine button:hover {
+.buy-wine .addCart:hover {
     cursor: pointer;
     opacity: 50%;
+}
+
+.buttonsQuant,
+#input {
+  outline: none;
+  border: none;
+  padding: 16px;
+  font-size: 18px;
+}
+
+#input {
+  width: 100%;
+  text-align: center;
+  background-color: #636363;
+}
+.buttonsQuant {
+  cursor: pointer;
+  background-color: #6d0101;
+}
+.buttonsQuant:nth-last-child(1) {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.buttonsQuant:nth-child(1) {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.buttonsQuant:hover {
+  background-color: #970000;
+}
+.buttonsQuant:nth-last-child(1):active {
+  box-shadow: inset -4px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.buttonsQuant:nth-child(1):active {
+  box-shadow: inset 4px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3), 4px 7px 15px rgba(0, 0, 0, 0.2),
+      9px 15px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 30%;
+    margin-bottom: 20px;
 }
