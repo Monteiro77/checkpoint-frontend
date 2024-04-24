@@ -94,6 +94,6 @@ function adicionarAoCarrinho() {
         return;
     } else {
         preco = valor * vinhoInfos.preco
-        swal(`Adicionado ${valor} ${vinhoInfos.nome}, com valor total de: R$${preco} ao carrinho!`, "", "success");
+        swal(`Adicionado ${valor} ${vinhoInfos.nome}, com valor total de: R$${preco.toFixed(2)} ao carrinho!`, "", "success");
     } 
 }
