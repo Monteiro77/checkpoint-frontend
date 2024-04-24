@@ -18,6 +18,7 @@ document.querySelector(".typeWine").innerHTML = "<b>Tipo</b>: " + vinhoInfos.tip
 document.querySelector(".priceWine").innerHTML = "R$" + vinhoInfos.preco;
 
 let counter = 1;
+let isCouponUsed = false;
 
 function increment() {
   counter++;
@@ -31,16 +32,21 @@ function get() {
   return counter;
 }
 
+const setWinePrice = (newValue) => {
+  vinhoInfos.preco = newValue
+}
+
 const inc = document.getElementById("increment");
 const input = document.getElementById("input");
 const dec = document.getElementById("decrement");
+const couponButton = document.getElementById("couponButton")
 
 inc.addEventListener("click", () => {
   increment();
   input.value = get();
   valor = input.value;
   preco = valor * vinhoInfos.preco
-  document.querySelector(".priceWine").innerHTML = "R$" + preco;
+  document.querySelector(".priceWine").innerHTML = "R$" + preco.toFixed(2);
 });
 
 dec.addEventListener("click", () => {
@@ -50,8 +56,36 @@ dec.addEventListener("click", () => {
   input.value = get();
   valor = input.value;
   preco = valor * vinhoInfos.preco
-  document.querySelector(".priceWine").innerHTML = "R$" + preco;
+  document.querySelector(".priceWine").innerHTML = "R$" + preco.toFixed(2);
 });
+
+const validateCoupon = (couponValue) => {
+  isCouponUsed = true
+
+  const counter = input.value
+  const winePrice = vinhoInfos.preco
+  const newWinePrice = winePrice - ( winePrice * 0.10 )
+  setWinePrice(newWinePrice.toFixed(2))
+
+  const actualPrice = counter * winePrice
+  const formattedActualPrice = actualPrice - (actualPrice * 0.1)
+  document.querySelector(".priceWine").innerHTML = "R$" + formattedActualPrice.toFixed(2);
+  
+  swal(`Cupom ${couponValue} ativado, você ganhou 10% de desconto!`, "", "success");
+}
+
+couponButton.addEventListener("click", () => {
+  const couponValue = document.getElementById("couponValue").value
+  if(!isCouponUsed){
+    if(couponValue === "FIAP2024"){
+      validateCoupon(couponValue)
+    } else {
+      swal(`Cupom ${couponValue} invalido!`, "", "error");
+    }
+  }else{
+    swal(`Você já aplicou um cupom`, "", "error");
+  }
+})
 
 function adicionarAoCarrinho() {
     valor = input.value;
