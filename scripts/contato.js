@@ -9,13 +9,13 @@ const sendForm = (event) => {
     const messageInputed = document.getElementById("message").value
 
     if(!nameInputed){
-        alert("O seu nome não pode estar vazio")
+        swal("O seu nome não pode estar vazio", "", "error");
     }else if(!emailInputed){
-        alert("O seu email não pode estar vazio")
+        swal("O seu email não pode estar vazio", "", "error");
     }else if(!messageInputed){
-        alert("O campo de mensagem não pode estar vazio")
+        swal("O campo de mensagem não pode estar vazio", "", "error");
     }else{
-        alert(`Enviado com sucesso!\n\nNome: ${nameInputed}\nEmail: ${emailInputed}\nMensagem: ${messageInputed}`)
+        swal(`Enviado com sucesso!\n\nNome: ${nameInputed}\nEmail: ${emailInputed}\nMensagem: ${messageInputed}`, "", "success");
     }
 }
 
