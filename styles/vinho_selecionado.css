@@ -131,3 +131,35 @@
     width: 30%;
     margin-bottom: 20px;
 }
+
+.couponContainer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: end;
+  align-items: center;
+}
+
+.couponContainer input{
+  background-color: #636363;
+  height: 40px;
+  margin-right: 10px;
+  width: 15%;
+  align-items: center;
+}
+
+.couponContainer button{
+  width: 15%;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #6d0101;
+  border: 0;
+  font-size: 18pt;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+
+
+
