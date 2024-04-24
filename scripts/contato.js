@@ -15,7 +15,7 @@ const sendForm = (event) => {
     }else if(!messageInputed){
         swal("O campo de mensagem não pode estar vazio", "", "error");
     }else{
-        swal(`Enviado com sucesso!\n\nNome: ${nameInputed}\nEmail: ${emailInputed}\nMensagem: ${messageInputed}`, "", "success");
+        swal(`Enviado com sucesso!\nNome: ${nameInputed}\nEmail: ${emailInputed}\nMensagem: ${messageInputed.substring(0, 10)}...`, "", "success");
     }
 }
 
