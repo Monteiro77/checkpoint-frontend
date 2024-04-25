@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vinheria Agnello: confira a nossa política!" />
-    <meta name="keywords" content="vinheria, vinhos, loja, vinícola, política, agnello" />
+    <meta name="description" content="Vinheria Agnello: a melhor vinheria humanizada!" />
+    <meta name="keywords" content="vinheria, vinhos, loja, vinícola, agnello" />
 
-    <link rel="stylesheet" href="../styles/default.css" />
-    <link rel="stylesheet" href="../styles/pag-politica.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="../https://fonts.googleapis.com">
+    <link rel="preconnect" href="../https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/default.css" />
+    <link rel="stylesheet" href="../styles/pag-politica.css">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script type="module" defer src="../scripts/maioridade.js"></script>
+    <script src="../scripts/vinhos.js"></script>
     <title>Vinheria Agnello</title>
 </head>
-<body>
+
+<body id="body">
+
     <header>
-        <img class="icon" onclick="window.location.assign('../index.html')" src="../images/icone.png" />
+        <img class="icon" onclick="window.location.assign('./')" src="../images/icone.png" />
         <nav>
             <ul class="header-nav">
                 <li><a href="../index.html">Início</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="../pages/sobre.html">Sobre</a></li>
                 <li><a href="./diferencial.html">Diferencial</a></li>
                 <li><a href="./politica.html">Política</a></li>
                 <li><a href="./vinhos.html">Vinhos</a></li>
                 <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./login.html" id="texto-login">Entrar</a></li>
             </ul>
         </nav>
     </header>
@@ -38,8 +47,8 @@
             <li><strong>Dados de contato:</strong> nome, e-mail, telefone, endereço postal.</li>
             <li><strong>Dados de compra:</strong> histórico de compras, produtos adquiridos, forma de pagamento.</li>
             <li><strong>Dados de navegação:</strong> endereço IP, tipo de navegador, páginas visitadas, data e hora da visita.</li>
-            <li><strong>Dados de interação:</strong>  comentários, avaliações, mensagens enviadas.</li>
-            <li><strong>Dados de perfil:</strong>  data de nascimento, sexo, preferências de vinho.</li>
+            <li><strong>Dados de interação:</strong> comentários, avaliações, mensagens enviadas.</li>
+            <li><strong>Dados de perfil:</strong> data de nascimento, sexo, preferências de vinho.</li>
         </ul>
 
         <h2 class="politica-h2">Como coletamos seus dados?</h2>
@@ -69,12 +78,14 @@
                     <li><a href="./vinhos.html">Vinhos</a></li>
                 </ul>
             </nav>
-        
+
             <div class="endereco">
-                <span>RUA DO VINHO 402,  VINHEDO, 13131313 SP - BRASIL | CNPJ 19.995.390/0001-05</span>
+                <span>RUA DO VINHO 402, VINHEDO, 13131313 SP - BRASIL | CNPJ 19.995.390/0001-05</span>
             </div>
         </div>
         <span class="copyright">Todos os direitos reservados | Vinheria Agnello @2024</span>
     </footer>
+    <script src="../scripts/login.js"></script>
 </body>
+
 </html>

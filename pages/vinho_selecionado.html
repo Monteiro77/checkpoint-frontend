@@ -4,28 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vinheria Agnello: confira nosso catálogo!" />
+    <meta name="description" content="Vinheria Agnello: a melhor vinheria humanizada!" />
     <meta name="keywords" content="vinheria, vinhos, loja, vinícola, agnello" />
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link rel="preconnect" href="../https://fonts.googleapis.com">
+    <link rel="preconnect" href="../https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/default.css" />
     <link rel="stylesheet" href="../styles/vinho_selecionado.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script type="module" defer src="../scripts/maioridade.js"></script>
+    <script src="../scripts/vinhos.js"></script>
     <title>Vinheria Agnello</title>
 </head>
 
-<body>
+<body id="body">
+
     <header>
-        <img class="icon" onclick="window.location.assign('../index.html')" src="../images/icone.png" />
+        <img class="icon" onclick="window.location.assign('./')" src="../images/icone.png" />
         <nav>
             <ul class="header-nav">
                 <li><a href="../index.html">Início</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="../pages/sobre.html">Sobre</a></li>
                 <li><a href="./diferencial.html">Diferencial</a></li>
                 <li><a href="./politica.html">Política</a></li>
                 <li><a href="./vinhos.html">Vinhos</a></li>
                 <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./login.html" id="texto-login">Entrar</a></li>
             </ul>
         </nav>
     </header>
@@ -39,14 +46,14 @@
                 </div>
                 <span class="textWine"></span>
             </div>
-            <img id="img-wine"/>
+            <img id="img-wine" />
         </div>
-        
+
         <div class="buy-wine">
             <div class="textPrice">
                 <span class="priceWine">R$ 0,00</span>
             </div>
-            
+
             <div class="input-group">
                 <button class="buttonsQuant" id="decrement">-</button>
                 <input type="number" id="input" value="1" readonly>
@@ -55,7 +62,7 @@
 
             <div class="couponContainer">
                 <input type="text" id="couponValue">
-                <button  id="couponButton">APLICAR CUPOM</button>
+                <button id="couponButton">APLICAR CUPOM</button>
             </div>
 
             <button class="addCart" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
@@ -79,6 +86,7 @@
         <span class="copyright">Todos os direitos reservados | Vinheria Agnello @2024</span>
     </footer>
     <script src="../scripts/vinho_selecionado.js"></script>
+    <script src="../scripts/login.js"></script>
 </body>
 
 </html>

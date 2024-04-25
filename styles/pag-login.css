@@ -1,0 +1,30 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px auto;
+    width: 400px;
+
+}
+
+.login-form h1 {
+    margin-bottom: 40px;
+}
+
+.login-form input {
+    height: 40px;
+    width: 100%;
+}
+
+.login-form label {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 15px auto;
+}

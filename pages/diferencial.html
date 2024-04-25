@@ -1,130 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/default.css" />
-    <link rel="stylesheet" href="../styles/diferencial.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Vinheria Agnello</title>
-  </head>
-  <body>
-    <header>
-      <img
-        class="icon"
-        onclick="window.location.assign('../index.html')"
-        src="../images/icone.png"
-      />
-      <nav>
-        <ul class="header-nav">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vinheria Agnello: a melhor vinheria humanizada!" />
+  <meta name="keywords" content="vinheria, vinhos, loja, vinícola, agnello" />
+
+  <link rel="preconnect" href="../https://fonts.googleapis.com">
+  <link rel="preconnect" href="../https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/default.css" />
+  <link rel="stylesheet" href="../styles/diferencial.css">
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <script type="module" defer src="../scripts/maioridade.js"></script>
+  <script src="../scripts/vinhos.js"></script>
+  <title>Vinheria Agnello</title>
+</head>
+
+<body id="body">
+
+  <header>
+    <img class="icon" onclick="window.location.assign('./')" src="../images/icone.png" />
+    <nav>
+      <ul class="header-nav">
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="../pages/sobre.html">Sobre</a></li>
+        <li><a href="./diferencial.html">Diferencial</a></li>
+        <li><a href="./politica.html">Política</a></li>
+        <li><a href="./vinhos.html">Vinhos</a></li>
+        <li><a href="./contato.html">Contato</a></li>
+        <li><a href="./login.html" id="texto-login">Entrar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>NOSSO DIFERENCIAL</h1>
+    <div class="content">
+      <section class="sectionCard">
+        <div class="descriptionCard">
+          <p class="cardTitle">Consultoria Personalizada</p>
+          <p class="cardDescription">
+            Em um mercado saturado, distinguimo-nos pelo nosso compromisso com
+            o atendimento personalizado e consultivo. Nossos vendedores não
+            são apenas vendedores - são guias apaixonados pelo vinho, prontos
+            para criar uma jornada sensorial única para cada cliente. Desde os
+            iniciantes curiosos até os conhecedores mais experientes, nossa
+            equipe está preparada para compartilhar conhecimento, responder a
+            perguntas e oferecer insights valiosos sobre o vasto mundo dos
+            vinhos.
+          </p>
+        </div>
+        <img src="../images/wineImg2.png" alt="imagem de vinho" />
+      </section>
+
+      <section class="sectionCard">
+        <img src="../images/wineImg1.png" class="imgLeft" alt="imagem de vinho" />
+        <div class="descriptionCard">
+          <p class="cardTitle">Vinhos Vivos, Cuidado Contínuo</p>
+          <p class="cardDescription">
+            Entendemos que o vinho é mais do que apenas uma bebida - é uma
+            expressão viva da terra, do clima e do cuidado meticuloso do
+            produtor. É por isso que investimos em adegas climatizadas em
+            nossa loja física, garantindo que cada garrafa seja armazenada nas
+            condições ideais para preservar sua qualidade e caráter
+            distintivo. Sabemos que a boa armazenagem não apenas mantém o
+            vinho fresco, mas também eleva a experiência do cliente,
+            transmitindo um compromisso tangível com a excelência.
+          </p>
+        </div>
+      </section>
+
+      <section class="sectionCard">
+        <div class="descriptionCard">
+          <p class="cardTitle">Conhecimento e Paixão</p>
+          <p class="cardDescription">
+            Na Vinheria Agnello, não apenas vendemos vinho - cultivamos uma
+            comunidade de entusiastas apaixonados. Para o cliente padrão que
+            busca aprender, nossos vendedores estão prontos para serem seus
+            guias confiáveis, compartilhando histórias fascinantes sobre cada
+            rótulo e desvendando os mistérios por trás de cada safra. E para
+            os conhecedores experientes, oferecemos um espaço para troca de
+            experiências, onde cada garrafa conta uma história e cada gole é
+            uma jornada sensorial.
+          </p>
+        </div>
+        <img src="../images/main.png" alt="imagem de vinho" />
+      </section>
+
+      <section class="sectionCard">
+        <img src="../images/sobre.png" class="imgLeft" alt="imagem de vinho" />
+        <div class="descriptionCard">
+          <p class="cardTitle">Uma Experiência Além do Comum</p>
+          <p class="cardDescription">
+            Na Vinheria Agnello, não apenas vendemos vinho - criamos memórias
+            duradouras, estimulamos os sentidos e inspiramos a descoberta.
+            Seja bem-vindo ao nosso mundo, onde cada garrafa é uma promessa de
+            aventura e cada cliente é um amigo em potencial. Junte-se a nós e
+            celebre a beleza do vinho, onde cada gota conta
+            uma história única.
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="main-footer">
+      <nav class="footer-nav">
+        <ul class="footer-ul">
           <li><a href="../index.html">Início</a></li>
           <li><a href="./sobre.html">Sobre</a></li>
           <li><a href="./diferencial.html">Diferencial</a></li>
           <li><a href="./politica.html">Política</a></li>
           <li><a href="./vinhos.html">Vinhos</a></li>
-          <li><a href="./contato.html">Contato</a></li>
         </ul>
       </nav>
-    </header>
 
-    <main>
-      <h1>NOSSO DIFERENCIAL</h1>
-      <div class="content">
-        <section class="sectionCard">
-          <div class="descriptionCard">
-            <p class="cardTitle">Consultoria Personalizada</p>
-            <p class="cardDescription">
-              Em um mercado saturado, distinguimo-nos pelo nosso compromisso com
-              o atendimento personalizado e consultivo. Nossos vendedores não
-              são apenas vendedores - são guias apaixonados pelo vinho, prontos
-              para criar uma jornada sensorial única para cada cliente. Desde os
-              iniciantes curiosos até os conhecedores mais experientes, nossa
-              equipe está preparada para compartilhar conhecimento, responder a
-              perguntas e oferecer insights valiosos sobre o vasto mundo dos
-              vinhos.
-            </p>
-          </div>
-          <img src="../images/wineImg2.png" alt="imagem de vinho" />
-        </section>
-
-        <section class="sectionCard">
-          <img src="../images/wineImg1.png" class="imgLeft" alt="imagem de vinho" />
-          <div class="descriptionCard">
-            <p class="cardTitle">Vinhos Vivos, Cuidado Contínuo</p>
-            <p class="cardDescription">
-              Entendemos que o vinho é mais do que apenas uma bebida - é uma
-              expressão viva da terra, do clima e do cuidado meticuloso do
-              produtor. É por isso que investimos em adegas climatizadas em
-              nossa loja física, garantindo que cada garrafa seja armazenada nas
-              condições ideais para preservar sua qualidade e caráter
-              distintivo. Sabemos que a boa armazenagem não apenas mantém o
-              vinho fresco, mas também eleva a experiência do cliente,
-              transmitindo um compromisso tangível com a excelência.
-            </p>
-          </div>
-        </section>
-
-        <section class="sectionCard">
-          <div class="descriptionCard">
-            <p class="cardTitle">Conhecimento e Paixão</p>
-            <p class="cardDescription">
-              Na Vinheria Agnello, não apenas vendemos vinho - cultivamos uma
-              comunidade de entusiastas apaixonados. Para o cliente padrão que
-              busca aprender, nossos vendedores estão prontos para serem seus
-              guias confiáveis, compartilhando histórias fascinantes sobre cada
-              rótulo e desvendando os mistérios por trás de cada safra. E para
-              os conhecedores experientes, oferecemos um espaço para troca de
-              experiências, onde cada garrafa conta uma história e cada gole é
-              uma jornada sensorial.
-            </p>
-          </div>
-          <img src="../images/main.png" alt="imagem de vinho" />
-        </section>
-
-        <section class="sectionCard">
-          <img src="../images/sobre.png" class="imgLeft" alt="imagem de vinho" />
-          <div class="descriptionCard">
-            <p class="cardTitle">Uma Experiência Além do Comum</p>
-            <p class="cardDescription">
-              Na Vinheria Agnello, não apenas vendemos vinho - criamos memórias
-              duradouras, estimulamos os sentidos e inspiramos a descoberta.
-              Seja bem-vindo ao nosso mundo, onde cada garrafa é uma promessa de
-              aventura e cada cliente é um amigo em potencial. Junte-se a nós e
-              celebre a beleza do vinho, onde cada gota conta
-              uma história única.
-            </p>
-          </div>
-        </section>
+      <div class="endereco">
+        <span>RUA DO VINHO 402, VINHEDO, 13131313 SP - BRASIL | CNPJ
+          19.995.390/0001-05</span>
       </div>
-    </main>
+    </div>
+    <span class="copyright">Todos os direitos reservados | Vinheria Agnello @2024</span>
+  </footer>
+  <script src="../scripts/login.js"></script>
+</body>
 
-    <footer>
-      <div class="main-footer">
-        <nav class="footer-nav">
-          <ul class="footer-ul">
-            <li><a href="../index.html">Início</a></li>
-            <li><a href="./sobre.html">Sobre</a></li>
-            <li><a href="./diferencial.html">Diferencial</a></li>
-            <li><a href="./politica.html">Política</a></li>
-            <li><a href="./vinhos.html">Vinhos</a></li>
-          </ul>
-        </nav>
-
-        <div class="endereco">
-          <span
-            >RUA DO VINHO 402, VINHEDO, 13131313 SP - BRASIL | CNPJ
-            19.995.390/0001-05</span
-          >
-        </div>
-      </div>
-      <span class="copyright"
-        >Todos os direitos reservados | Vinheria Agnello @2024</span
-      >
-    </footer>
-  </body>
 </html>
