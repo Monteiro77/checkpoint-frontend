@@ -1,5 +1,4 @@
 .main-harmo {
-    height: 2400px;
     width: 100%;
     padding: 2%;
     display: flex;
@@ -44,7 +43,6 @@
 .left-harmo span {
     font-weight: 300;
     font-size: 20pt;
-    margin-top: -30px;
 }
 
 .rigth-harmo {
@@ -67,9 +65,10 @@ h3 {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-end;
     gap: 3%;
-    margin-top: -80px;
+    margin-bottom: 80px;
 }
 
 .information-harmo-wine {
@@ -89,6 +88,7 @@ h3 {
 .container-header-produto span {
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 
 .left-wine img:hover {
@@ -97,5 +97,10 @@ h3 {
 }
 
 .information-wine-subtittle{
-    font-size: 18pt;
+    font-size: 14pt;
+    font-weight: 200;
+}
+
+.subtittle-harmo {
+    margin-bottom: 30px;
 }

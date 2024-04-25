@@ -92,3 +92,7 @@ footer {
     margin-top: 40px;
     font-size: 10pt;
 }
+
+#texto-login {
+    color: rgb(255, 145, 145);
+}

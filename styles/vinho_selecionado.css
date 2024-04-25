@@ -145,8 +145,16 @@
   background-color: #636363;
   height: 40px;
   margin-right: 10px;
-  width: 15%;
+  width: calc(15% - 10px);
   align-items: center;
+  border: none;
+  border-radius: 10px;
+}
+
+.couponContainer input::placeholder {
+  color: #949393;
+  padding-left: 10px;
+  font-size: 13pt;
 }
 
 .couponContainer button{
@@ -155,11 +163,15 @@
   border-radius: 10px;
   background-color: #6d0101;
   border: 0;
-  font-size: 18pt;
+  font-size: 13pt;
   transition: all 1s;
   cursor: pointer;
+  transition: all 1s;
 }
 
+.couponContainer button:hover {
+  opacity: 50%;
+}
 
 
 

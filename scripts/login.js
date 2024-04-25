@@ -30,6 +30,7 @@ function logar() {
     sessionStorage.setItem('Login', 'OK');
     alert('Login realizado com sucesso');
     textoLogin.innerHTML = 'Sair';
+    window.location.assign('../index.html');
   } else {
     alert('Usuário ou senha incorreto');
   }

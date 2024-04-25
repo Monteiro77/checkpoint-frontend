@@ -1,10 +1,10 @@
 vinhoInfos = {
-    nome: sessionStorage.getItem("vinho_selecionado_nome"),
-    tipo: sessionStorage.getItem("vinho_selecionado_tipo"),
-    sobre: sessionStorage.getItem("vinho_selecionado_sobre"),
-    safra: sessionStorage.getItem("vinho_selecionado_safra"),
-    imagem: sessionStorage.getItem("vinho_selecionado_imagem"),
-    preco: sessionStorage.getItem("vinho_selecionado_preco"),
+    nome: sessionStorage.getItem("vinho_selecionado_nome") ?? null,
+    tipo: sessionStorage.getItem("vinho_selecionado_tipo") ?? null,
+    sobre: sessionStorage.getItem("vinho_selecionado_sobre") ?? null,
+    safra: sessionStorage.getItem("vinho_selecionado_safra") ?? null,
+    imagem: sessionStorage.getItem("vinho_selecionado_imagem") ?? null,
+    preco: sessionStorage.getItem("vinho_selecionado_preco") ?? null,
 };
 if(vinhoInfos.nome == null) {
     window.location.assign("../pages/vinhos.html");
@@ -71,7 +71,11 @@ const validateCoupon = (couponValue) => {
   const formattedActualPrice = actualPrice - (actualPrice * 0.1)
   document.querySelector(".priceWine").innerHTML = "R$" + formattedActualPrice.toFixed(2);
   
-  swal(`Cupom ${couponValue} ativado, você ganhou 10% de desconto!`, "", "success");
+  swal({
+    title: `Cupom ${couponValue} ativado, você ganhou 10% de desconto!`, 
+    icon: "success",
+    dangerMode: true,
+  });
 }
 
 couponButton.addEventListener("click", () => {
@@ -80,20 +84,36 @@ couponButton.addEventListener("click", () => {
     if(couponValue === "FIAP2024"){
       validateCoupon(couponValue)
     } else {
-      swal(`Cupom ${couponValue} invalido!`, "", "error");
+        swal({
+          title: `Cupom ${couponValue} invalido!`,
+          icon: "error",
+          dangerMode: true,
+        });
     }
   }else{
-    swal(`Você já aplicou um cupom`, "", "error");
+    swal({
+      title: `Você já aplicou um cupom`, 
+      icon: "error",
+      dangerMode: true,
+    });
   }
 })
 
 function adicionarAoCarrinho() {
     valor = input.value;
     if(valor == 0) {
-        swal("Selecione a quantidade!", "", "warning");
+        swal({
+          title: "Selecione a quantidade!",
+          icon: "warning",
+          dangerMode: true,
+        });
         return;
     } else {
         preco = valor * vinhoInfos.preco
-        swal(`Adicionado ${valor} ${vinhoInfos.nome}, com valor total de: R$${preco.toFixed(2)} ao carrinho!`, "", "success");
+        swal({
+          title: `Adicionado ${valor} ${vinhoInfos.nome}, com valor total de: R$${preco.toFixed(2)} ao carrinho!`,
+          icon:"success",
+          dangerMode: true,
+        });
     } 
 }
