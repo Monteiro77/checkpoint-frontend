@@ -33,17 +33,31 @@ Link: https://www.figma.com/file/ALiAiFDFw4Hp8xTAySFPSH/Untitled?type=design&nod
 
 6. **Vinho Selecionado (`vinho_selecionado.html`):**
    - Esta página contém o vinho selecionado ao clicar em "Comprar" na lista de vinhos oferecidos pela vinheria na página de vinhos, na qual demonstra as características do vinho, e a opção de adicionar ao carrinho o mesmo com a quantidade desejada.
+  
+7. **Login (`login.html`):**
+   - Esta página contém a opção do usuário logar na plataforma.
+
+8. **Contato (`contato.html`):**
+   - Esta página contém a opção do usuário entrar em contato através da plataforma.
+
+9. **Harmonização (`harmonizacao.html`):**
+   - Esta página contém as harmonizações recomendadas baseadas nos tipos de vinhos.
 
 ## Estrutura de Diretórios:
 
 - `styles/`: Pasta contendo arquivos CSS para estilização das páginas.
 - `images/`: Pasta contendo imagens utilizadas nas páginas.
 - `pages/`: Pasta contendo todas as páginas utilizadas no site, com excessão do index.html (página principal)
+- `scripts/`: Pasta contento todos os scripts utilizados no site.
 - `index.html`: Página inicial do projeto.
 - `pages/sobre.html`: Página com informações sobre a Vinheria Agnello.
 - `pages/diferencial.html`: Página destacando os diferenciais da Vinheria Agnello.
 - `pages/vinhos.html`: Página com informações sobre os vinhos oferecidos pela Vinheria Agnello.
+- `pages/vinho_selecionado.html`: Página com informações sobre o vinho selecionado pelo usuário na página de vinhos.
 - `pages/politica.html`: Página contendo a política de privacidade da Vinheria Agnello.
+- `pages/contato.html`: Página contendo a possibilidade de contato do usuário com a Vinheria.
+- `pages/login.html`: Página contendo a possibilidade de login do usuário com a plataforma.
+- `pages/harmonizacao.html`: Página contendo recomendações de harmonizações dos vinhos oferecidos.
 
 ## Estilização:
 
