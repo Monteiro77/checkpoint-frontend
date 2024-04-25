@@ -1,9 +1,9 @@
 # Equipe
 Rafael Duarte de Freitas, RM: 558644 - Página principal e de vinho selecionado <br>
 Vinicius Monteiro, RM: 555088 - Página de vinhos <br>
-Enzo Diógenes, RM: 555062 - Página de diferencial <br>
-Rafael Gaspar, RM: 557228 - Página de sobre e de comidas <br>
-Guilherme Oliveira, RM: 555180 - Página de política <br>
+Enzo Diógenes, RM: 555062 - Página de diferencial e contato <br>
+Rafael Gaspar, RM: 557228 - Página de sobre e de harmonizações <br>
+Guilherme Oliveira, RM: 555180 - Página de política e Login<br>
 
 # Estrutura do Projeto HTML e CSS
 
