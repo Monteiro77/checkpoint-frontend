@@ -1,9 +1,10 @@
 .main-harmo {
     width: 100%;
-    padding: 2%;
+    padding: 2% 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .tittle-harmo {
@@ -13,39 +14,17 @@
 
 .container-tipo-harmo {
     width: 100%;
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-}
-
-.divisor {
-    width: 100%;
-    height: 60%;
-    display: grid;
-    grid-template-columns: 60% 40%;
-}
-
-
-.rigth-harmo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     gap: 5%;
+    display: flex;
 }
 
-.rigth-harmo img {
-    width: 55%;
+.container-tipo-harmo img {
     transition: 1500ms;
     border-radius: 20px;
 }
 
-.left-harmo span {
-    font-weight: 300;
-    font-size: 20pt;
-}
 
-.rigth-harmo {
+.left-harmo {
     display: flex;
     flex-direction: column;
     padding: 2%;
@@ -74,7 +53,7 @@ h3 {
 .information-harmo-wine {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     gap: 5px;
 
 }
@@ -89,11 +68,6 @@ h3 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 40px;
-}
-
-.left-wine img:hover {
-    width: 58%;
-    transition: 1500ms;
 }
 
 .information-wine-subtittle{
