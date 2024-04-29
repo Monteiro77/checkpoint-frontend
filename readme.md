@@ -1,9 +1,9 @@
 # 🥇Equipe 
-Rafael Duarte de Freitas, RM: 558644
-Vinicius Monteiro, RM: 555088
-Enzo Diógenes, RM: 555062
-Rafael Gaspar, RM: 557228
-Guilherme Oliveira, RM: 555180
+Rafael Duarte de Freitas, RM: 558644 <br>
+Vinicius Monteiro, RM: 555088 <br>
+Enzo Diógenes, RM: 555062 <br>
+Rafael Gaspar, RM: 557228 <br>
+Guilherme Oliveira, RM: 555180 <br>
 
 # 🏗️Estrutura do Projeto HTML e CSS
 
