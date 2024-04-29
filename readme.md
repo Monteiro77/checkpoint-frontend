@@ -1,4 +1,4 @@
-# Equipe
+# Equipe 🌝
 Rafael Duarte de Freitas, RM: 558644 - Página principal e de vinho selecionado <br>
 Vinicius Monteiro, RM: 555088 - Página de vinhos <br>
 Enzo Diógenes, RM: 555062 - Página de diferencial e contato <br>
