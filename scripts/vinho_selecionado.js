@@ -118,6 +118,25 @@ function adicionarAoCarrinho() {
     } 
 }
 
+function enviarAvaliacao() {
+    const avaliacao = document.getElementById("avaliacao").value;
+    if(avaliacao == "") {
+        swal({
+          title: "Digite a avaliação!",
+          icon: "warning",
+          dangerMode: true,
+        });
+        return;
+    } else {
+        swal({
+          title: `Avaliação enviada com sucesso!`,
+          icon:"success",
+          dangerMode: true,
+        });
+    }
+
+}
+
 //BUTTON//
 
 const heart = document.querySelector(".heart");

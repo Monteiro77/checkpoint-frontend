@@ -157,7 +157,7 @@
   font-size: 13pt;
 }
 
-.couponContainer button{
+.couponContainer button, .adicionarComentario button{
   width: 15%;
   height: 60px;
   border-radius: 10px;
@@ -169,10 +169,77 @@
   transition: all 1s;
 }
 
-.couponContainer button:hover {
+.adicionarComentario button {
+  width: 40%;
+  margin-top: 20px;
+  font-size: 16pt;
+}
+
+.couponContainer button:hover, .adicionarComentario button:hover{
   opacity: 50%;
 }
 
+.container-comentarios {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.adicionarComentario {
+  margin-top: 80px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.adicionarComentario h3 {
+  font-size: 20pt;
+  font-weight: 200;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.adicionarComentario textarea {
+  resize: none;
+  width: 100%;
+  border: none;
+  background-color: #636363;
+  border-radius: 10px;
+  min-height: 200px;
+  padding: 5px;
+}
+
+.adicionarComentario textarea::placeholder {
+  color: #aaaaaa;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+/* Estrelas */
+
+.estrelas {
+  margin-bottom: 20px;
+}
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label:hover {
+  cursor: pointer;
+}
+.estrelas label i.fa{
+  font-size: 2em
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
 
 /*BUTTON*/
 
